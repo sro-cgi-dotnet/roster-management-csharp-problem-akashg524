@@ -48,7 +48,7 @@ namespace RosterManagement
         /// <summary>
         /// Return all the cadets in the CodeSchool
         /// </summary>
-        /// <returns>List of Cadet's Name in sorted order</returns>
+        /// <returns>List of Cadet's Name</returns>
         public List<string> Roster () 
         {
             var d=new SortedDictionary<int,List<string>>(_roster);
